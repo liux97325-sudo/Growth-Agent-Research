@@ -1,0 +1,24 @@
+%% Figure-001 Project Architecture
+flowchart TB
+    Spec["PROJECT_SPEC.md<br/>最高规范"]
+    Research["Research/<br/>唯一真相源"]
+    GA1["GA-1 Theory<br/>当前阶段"]
+    GA2["GA-2 Engineering<br/>Locked"]
+    GA3["GA-3 Validation<br/>Locked"]
+    Meeting["Meeting/<br/>讨论与决策"]
+    Paper["Paper/<br/>派生占位"]
+    Figures["Figures/<br/>图源与导出物"]
+    Appendix["Appendix/<br/>术语辅助"]
+    Templates["Templates/<br/>标准模板"]
+
+    Spec --> Research
+    Spec --> Meeting
+    Research --> GA1
+    GA1 -->|"阶段批准后"| GA2
+    GA2 -->|"阶段批准后"| GA3
+    Research --> Paper
+    Research --> Figures
+    Research --> Appendix
+    Templates --> Research
+    Templates --> Meeting
+

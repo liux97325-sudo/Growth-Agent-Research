@@ -1,0 +1,44 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temporary and generated files
+*.tmp
+*.log
+~$*
+
+# Local environments
+.env
+.env.*
+!.env.example
+
+# Generated figure exports (directory retained by .gitkeep)
+Figures/SVG/*
+!Figures/SVG/.gitkeep
+
+# Python (garp skeleton)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local data / credentials (never commit)
+**/secrets/
+**/credentials.local.*
+**/*.pem
+**/*.key
+data/live/
+fixtures/enterprise/

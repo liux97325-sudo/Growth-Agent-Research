@@ -1,0 +1,10 @@
+[project]
+name = "garp-skeleton"
+version = "0.0.1"
+description = "GARP Fixture/Shadow code skeleton (GA2-T31). No live API. All thresholds Proposed."
+requires-python = ">=3.10"
+# stdlib only — no runtime dependencies
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["packages"]

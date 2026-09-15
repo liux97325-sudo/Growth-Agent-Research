@@ -1,0 +1,18 @@
+%% Figure-002 Research Roadmap
+flowchart LR
+    GA1["GA-1：Theory<br/>理论基线"]
+    Gate1{"GA-1 完成标准<br/>与决策批准"}
+    GA2["GA-2：Engineering<br/>工程基线"]
+    Gate2{"GA-2 完成标准<br/>与决策批准"}
+    GA3["GA-3：Validation<br/>验证证据"]
+    Future["Future Versions<br/>受控迭代"]
+
+    GA1 --> Gate1
+    Gate1 -->|"批准"| GA2
+    Gate1 -->|"未批准"| GA1
+    GA2 --> Gate2
+    Gate2 -->|"批准"| GA3
+    Gate2 -->|"未批准"| GA2
+    GA3 --> Future
+    Future -->|"新版本提案"| GA1
+

@@ -1,0 +1,32 @@
+{
+  "_comment": "GA-2 Fixture skeleton defaults — ALL values Proposed, not calibrated. See Research/GA-2/Threshold_Calibration_Method_v0.1.md",
+  "env": "FIXTURE",
+  "mode": "MODE_SHADOW_DECIDE",
+  "adapter_runtime": "FIXTURE_ONLY",
+  "dry_run": true,
+  "receipt_source": "FIXTURE",
+  "learning_pool": "SHADOW_POOL",
+  "trust_credit_allowed": false,
+  "execution_mode": "SHADOW_READ_ONLY",
+  "packet_kind": "shadow_decision",
+  "actor": "BOOT",
+  "thresholds": {
+    "_comment": "Proposed thresholds for skeleton / pre-calibration only",
+    "forecast_write_confidence_min": 0.6,
+    "n_revise_max": 2,
+    "max_bid_delta_pct": 0.15,
+    "max_budget_delta_pct": 0.10,
+    "max_daily_adjust_count": 4,
+    "min_response_window_minutes": 120,
+    "sm_m01_direction_agreement": 0.7,
+    "sm_m02_no_action_accuracy": 0.8,
+    "sm_m03_forecast_hit_24h": 0.6,
+    "sm_m10_isolation_completeness": 1.0
+  },
+  "source_env_canonical": ["LIVE", "SHADOW", "SIMULATION", "FIXTURE", "HUMAN"],
+  "notes": [
+    "GA-DEC-004: Shadow/Read-only first; LIVE write needs new GA-DEC",
+    "GA-DEC-006: source_env canonical includes HUMAN; REAL is alias of LIVE",
+    "No credentials; LiveTransport Fail-Closed"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_comment": "Envelope sample for fixtures — non-LIVE only. Proposed.",
+  "env": "FIXTURE",
+  "mode": "MODE_SHADOW_DECIDE",
+  "adapter_runtime": "FIXTURE_ONLY",
+  "dry_run": true,
+  "receipt_source": "FIXTURE",
+  "learning_pool": "SHADOW_POOL",
+  "trust_credit_allowed": false,
+  "execution_mode": "SHADOW_READ_ONLY",
+  "packet_kind": "shadow_decision"
+}

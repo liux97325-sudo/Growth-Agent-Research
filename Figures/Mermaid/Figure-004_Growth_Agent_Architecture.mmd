@@ -1,0 +1,73 @@
+%% Figure-004: Growth Agent Overall Architecture (GA-2 v0.2 Draft)
+%% Source: Research/GA-2/Architecture_Overview_v0.2.md
+%% Status: Draft | GA-DEC-003 | Date: 2026-09-11
+flowchart TB
+    BIZ["L0 企业经营目标 / 预算 / 风险偏好"]
+    CBA["L1 Chief Business Agent"]
+    OFG["Objective Function Generator"]
+
+    subgraph CORE["L2 Growth OS Core"]
+        FE["Forecast Engine"]
+        RE["Reasoning Engine"]
+        ME["Memory Engine"]
+        LE["Learning Engine"]
+        KE["Knowledge Engine"]
+        RF["Reflection Engine"]
+        RK["Risk Engine"]
+        TR["Trust Engine"]
+        SR["Self-review Agent"]
+    end
+
+    subgraph DOMAIN["L3 Domain Agents"]
+        JD["JD Advertising Agent"]
+        DY["Douyin Operations Agent"]
+    end
+
+    subgraph EDGE["L4 Edge"]
+        AD["Platform Adapter"]
+        VAL["Business Data Validation"]
+        ST["Business State Assembler"]
+    end
+
+    subgraph ASSET["L5 Enterprise Assets"]
+        LOG["Audit Log"]
+        MEM["Causal Episodes"]
+        EXP["Experiences"]
+        RUL["Rules"]
+        STR["Strategies"]
+        GEN["Parameter Genomes"]
+        CAP["Capabilities"]
+    end
+
+    BIZ --> CBA
+    CBA --> OFG
+    OFG --> RE
+    ST --> FE
+    ST --> RE
+    FE --> RE
+    RE --> SR
+    RK --> SR
+    TR --> SR
+    SR -->|APPROVE| CBA
+    CBA --> JD
+    CBA --> DY
+    JD --> AD
+    DY --> AD
+    AD --> VAL
+    VAL --> ST
+    JD --> LOG
+    DY --> LOG
+    LOG --> ME
+    ME --> MEM
+    MEM --> LE
+    LE --> RF
+    RF --> LE
+    LE --> EXP
+    EXP --> KE
+    KE --> RUL
+    RUL --> STR
+    STR --> GEN
+    GEN --> CAP
+    KE --> RE
+    KE --> CBA
+    TR --> CBA

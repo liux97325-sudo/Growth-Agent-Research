@@ -1,0 +1,34 @@
+%% Figure-003 Directory Relationships
+flowchart TD
+    Root["Growth-Agent-Research/"]
+    Spec["PROJECT_SPEC.md"]
+    Research["Research/ SSOT"]
+    Meeting["Meeting/"]
+    Paper["Paper/"]
+    Figures["Figures/"]
+    Appendix["Appendix/"]
+    Templates["Templates/"]
+    GA1["GA-1/"]
+    GA2["GA-2/ Locked"]
+    GA3["GA-3/ Locked"]
+    Mermaid["Mermaid/"]
+    SVG["SVG/"]
+
+    Root --> Spec
+    Root --> Research
+    Root --> Meeting
+    Root --> Paper
+    Root --> Figures
+    Root --> Appendix
+    Root --> Templates
+    Research --> GA1
+    Research --> GA2
+    Research --> GA3
+    Figures --> Mermaid
+    Figures --> SVG
+    Spec -."governs".-> Research
+    Spec -."governs".-> Meeting
+    Research -."source".-> Paper
+    Research -."source".-> Figures
+    Mermaid -->|"future export"| SVG
+
