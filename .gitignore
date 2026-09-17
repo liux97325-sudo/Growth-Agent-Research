@@ -18,9 +18,12 @@ Thumbs.db
 .env.*
 !.env.example
 
-# Generated figure exports (directory retained by .gitkeep)
+# Generated figure exports; published homepage diagrams are retained
 Figures/SVG/*
 !Figures/SVG/.gitkeep
+!Figures/SVG/Figure-005_*.svg
+!Figures/SVG/Figure-006_*.svg
+!Figures/SVG/Figure-007_*.svg
 
 # Python (garp skeleton)
 __pycache__/

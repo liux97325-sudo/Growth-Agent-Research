@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img">
+<title>Figure-005 · Growth through four connected loops</title>
+<desc>CBA coordinates goals and components; the loops collaborate across timescales.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="#64748b"/></marker></defs>
+<rect width="1200" height="720" rx="24" fill="#f8fafc"/>
+<style>text{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif} .title{font-size:32px;font-weight:700;fill:#0f172a}.sub{font-size:18px;fill:#475569}.head{font-size:21px;font-weight:700;fill:#0f172a}.body{font-size:16px;fill:#334155}.foot{font-size:17px;fill:#475569}</style>
+<text x="48" y="62" class="title">Figure-005 · Growth through four connected loops</text>
+<text x="48" y="98" class="sub">CBA coordinates goals and components; the loops collaborate across timescales.</text>
+<path d="M568 245 L632 245" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M892 340 L892 410" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M780 340 L780 375 L308 375 L308 410" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M308 410 L308 340" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M568 505 L632 505" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1000 410 L1000 365 L480 365 L480 340" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="150" width="520" height="190" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="48" y="150" width="6" height="190" rx="3" fill="#2563eb"/>
+<text x="72" y="192" class="head">A · Business decisions</text>
+<text x="72" y="230" class="body">Trusted state → forecast → candidates</text>
+<text x="72" y="259" class="body">Risk / trust / review → domain action</text>
+<text x="72" y="288" class="body">Retain context and outcome references</text>
+<rect x="632" y="150" width="520" height="190" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="632" y="150" width="6" height="190" rx="3" fill="#0f766e"/>
+<text x="656" y="192" class="head">B · Experience distillation</text>
+<text x="656" y="230" class="body">Audit → causal memory → reflection</text>
+<text x="656" y="259" class="body">Produce evidence-based candidates</text>
+<text x="656" y="288" class="body">Learn from both success and failure</text>
+<rect x="48" y="410" width="520" height="190" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="48" y="410" width="6" height="190" rx="3" fill="#7c3aed"/>
+<text x="72" y="452" class="head">C · Knowledge evolution</text>
+<text x="72" y="490" class="body">Experience → rules / strategy / genomes</text>
+<text x="72" y="519" class="body">Versions, scope and counterexamples</text>
+<text x="72" y="548" class="body">Reusable knowledge informs decisions</text>
+<rect x="632" y="410" width="520" height="190" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="632" y="410" width="6" height="190" rx="3" fill="#b45309"/>
+<text x="656" y="452" class="head">D · Trust &amp; autonomy</text>
+<text x="656" y="490" class="body">Performance &amp; risk → trust assessment</text>
+<text x="656" y="519" class="body">Human review → capability grants</text>
+<text x="656" y="548" class="body">Monitor, suspend and reduce authority</text>
+<text x="48" y="675" class="foot">Design overview includes unimplemented work. Reuse and greater authority require evidence.</text>
+<text x="1148" y="700" text-anchor="end" class="foot">GARP · Research design</text>
+</svg>

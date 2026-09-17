@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img">
+<title>Figure-007 · Research stages and long-term horizon</title>
+<desc>Move from theory to runnable mechanisms, then test growth and autonomy claims.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="#64748b"/></marker></defs>
+<rect width="1200" height="720" rx="24" fill="#f8fafc"/>
+<style>text{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif} .title{font-size:32px;font-weight:700;fill:#0f172a}.sub{font-size:18px;fill:#475569}.head{font-size:21px;font-weight:700;fill:#0f172a}.body{font-size:16px;fill:#334155}.foot{font-size:17px;fill:#475569}</style>
+<text x="48" y="62" class="title">Figure-007 · Research stages and long-term horizon</text>
+<text x="48" y="98" class="sub">Move from theory to runnable mechanisms, then test growth and autonomy claims.</text>
+<path d="M568 250 L632 250" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M892 340 L892 375 L308 375 L308 410" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M568 500 L632 500" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="160" width="520" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="48" y="160" width="6" height="180" rx="3" fill="#2563eb"/>
+<text x="72" y="202" class="head">GA-1 · Theory baseline</text>
+<text x="72" y="240" class="body">Confirmed · v1.0</text>
+<text x="72" y="269" class="body">Definitions and research mechanisms</text>
+<text x="72" y="298" class="body">Theory inputs to engineering</text>
+<rect x="632" y="160" width="520" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="632" y="160" width="6" height="180" rx="3" fill="#0f766e"/>
+<text x="656" y="202" class="head">GA-2 · Engineering design</text>
+<text x="656" y="240" class="body">Current · Conditional</text>
+<text x="656" y="269" class="body">Interfaces + partial shadow skeleton</text>
+<text x="656" y="298" class="body">Complete contracts, gates and replay</text>
+<rect x="48" y="410" width="520" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="48" y="410" width="6" height="180" rx="3" fill="#7c3aed"/>
+<text x="72" y="452" class="head">GA-3 · Validation</text>
+<text x="72" y="490" class="body">Not started · Locked</text>
+<text x="72" y="519" class="body">Rules / human controls and ablations</text>
+<text x="72" y="548" class="body">Test growth, transfer and net value</text>
+<rect x="632" y="410" width="520" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="632" y="410" width="6" height="180" rx="3" fill="#b45309"/>
+<text x="656" y="452" class="head">Horizon · Coordination</text>
+<text x="656" y="490" class="body">Research ambition</text>
+<text x="656" y="519" class="body">Digital employees across domains</text>
+<text x="656" y="548" class="body">JD → Douyin and further domains</text>
+<text x="48" y="675" class="foot">Stage transitions require decisions. Future objectives are not demonstrated business outcomes.</text>
+<text x="1148" y="700" text-anchor="end" class="foot">GARP · Research design</text>
+</svg>

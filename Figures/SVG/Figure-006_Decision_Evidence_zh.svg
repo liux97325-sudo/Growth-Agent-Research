@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img">
+<title>Figure-006 · Decision Packet：决策与学习的证据桥梁</title>
+<desc>连接“当时知道什么、预期什么、实际发生什么”，让成长可以追踪与检验。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="#64748b"/></marker></defs>
+<rect width="1200" height="720" rx="24" fill="#f8fafc"/>
+<style>text{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif} .title{font-size:32px;font-weight:700;fill:#0f172a}.sub{font-size:18px;fill:#475569}.head{font-size:21px;font-weight:700;fill:#0f172a}.body{font-size:16px;fill:#334155}.foot{font-size:17px;fill:#475569}</style>
+<text x="48" y="62" class="title">Figure-006 · Decision Packet：决策与学习的证据桥梁</text>
+<text x="48" y="98" class="sub">连接“当时知道什么、预期什么、实际发生什么”，让成长可以追踪与检验。</text>
+<path d="M368 240 L440 240" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M760 240 L832 240" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M992 330 L992 410" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M832 500 L760 500" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M440 500 L368 500" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M208 410 L208 330" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="150" width="320" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="48" y="150" width="6" height="180" rx="3" fill="#2563eb"/>
+<text x="72" y="192" class="head">01 · 决策上下文</text>
+<text x="72" y="230" class="body">目标快照 / 可信状态 / 预测</text>
+<text x="72" y="259" class="body">锁定证据与知识版本</text>
+<rect x="440" y="150" width="320" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="440" y="150" width="6" height="180" rx="3" fill="#0f766e"/>
+<text x="464" y="192" class="head">02 · 可审查提案</text>
+<text x="464" y="230" class="body">假设 / 候选动作 / NO_ACTION</text>
+<text x="464" y="259" class="body">预期效果与响应窗口</text>
+<rect x="832" y="150" width="320" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="832" y="150" width="6" height="180" rx="3" fill="#7c3aed"/>
+<text x="856" y="192" class="head">03 · 独立门禁</text>
+<text x="856" y="230" class="body">Risk → Trust → Self-review</text>
+<text x="856" y="259" class="body">Adapter 完整门禁（待补齐）</text>
+<rect x="832" y="410" width="320" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="832" y="410" width="6" height="180" rx="3" fill="#b45309"/>
+<text x="856" y="452" class="head">04 · 回执与观察</text>
+<text x="856" y="490" class="body">实际动作回执 / 合成不动作回执</text>
+<text x="856" y="519" class="body">结果观察，保留环境来源</text>
+<rect x="440" y="410" width="320" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="440" y="410" width="6" height="180" rx="3" fill="#2563eb"/>
+<text x="464" y="452" class="head">05 · 反思与经验</text>
+<text x="464" y="490" class="body">检验预判、反例与失败</text>
+<text x="464" y="519" class="body">经验候选与质量证据</text>
+<rect x="48" y="410" width="320" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="48" y="410" width="6" height="180" rx="3" fill="#0f766e"/>
+<text x="72" y="452" class="head">06 · 知识与反哺</text>
+<text x="72" y="490" class="body">晋升 / 观察 / 降权</text>
+<text x="72" y="519" class="body">版本化资产供后续决策使用</text>
+<text x="48" y="675" class="foot">NO_ACTION 仍须审查与观察；合成回执不产生平台副作用。因果效应仍需对照验证。</text>
+<text x="1148" y="700" text-anchor="end" class="foot">GARP · Research design</text>
+</svg>

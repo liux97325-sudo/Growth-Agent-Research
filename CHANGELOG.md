@@ -4,6 +4,12 @@
 
 ## [Unreleased]
 
+### Documentation — 2026-09-17
+
+- 重写中文项目首页，新增 `README.en.md` 英文版；说明四回路、决策证据链、知识资产、双轨成长提案与有条件的研究前景。
+- 新增 Figure-005–007 的中英文 SVG 配图及对应 Mermaid 图源；图示为机制概览，包含待实现部分。
+- 首页同步现行 Apache-2.0 许可、GA-2 Conditional 状态、真实接入与验证边界；未修改 GA-1 理论、正式决策或业务代码。
+
 ### Added
 
 - 新增 `Research_Context.md`，作为阶段上下文快照。

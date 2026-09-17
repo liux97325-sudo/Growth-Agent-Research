@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img">
+<title>Figure-007 · 研究路线与长期前景</title>
+<desc>由理论走向可运行机制，再用验证证据支持成长与自治主张。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="#64748b"/></marker></defs>
+<rect width="1200" height="720" rx="24" fill="#f8fafc"/>
+<style>text{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif} .title{font-size:32px;font-weight:700;fill:#0f172a}.sub{font-size:18px;fill:#475569}.head{font-size:21px;font-weight:700;fill:#0f172a}.body{font-size:16px;fill:#334155}.foot{font-size:17px;fill:#475569}</style>
+<text x="48" y="62" class="title">Figure-007 · 研究路线与长期前景</text>
+<text x="48" y="98" class="sub">由理论走向可运行机制，再用验证证据支持成长与自治主张。</text>
+<path d="M568 250 L632 250" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M892 340 L892 375 L308 375 L308 410" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M568 500 L632 500" fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="48" y="160" width="520" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="48" y="160" width="6" height="180" rx="3" fill="#2563eb"/>
+<text x="72" y="202" class="head">GA-1 · 理论基线</text>
+<text x="72" y="240" class="body">已确认 · v1.0</text>
+<text x="72" y="269" class="body">定义、机制与研究问题</text>
+<text x="72" y="298" class="body">为工程提供理论输入</text>
+<rect x="632" y="160" width="520" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="632" y="160" width="6" height="180" rx="3" fill="#0f766e"/>
+<text x="656" y="202" class="head">GA-2 · 工程设计</text>
+<text x="656" y="240" class="body">当前 · Conditional</text>
+<text x="656" y="269" class="body">四回路接口 + 局部影子骨架</text>
+<text x="656" y="298" class="body">补齐契约、门禁与回放证据</text>
+<rect x="48" y="410" width="520" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="48" y="410" width="6" height="180" rx="3" fill="#7c3aed"/>
+<text x="72" y="452" class="head">GA-3 · 实验验证</text>
+<text x="72" y="490" class="body">未启动 · Locked</text>
+<text x="72" y="519" class="body">规则 / 人工对照与消融</text>
+<text x="72" y="548" class="body">检验成长、迁移与净价值</text>
+<rect x="632" y="410" width="520" height="180" rx="16" fill="white" stroke="#cbd5e1"/>
+<rect x="632" y="410" width="6" height="180" rx="3" fill="#b45309"/>
+<text x="656" y="452" class="head">长期 · 企业协同</text>
+<text x="656" y="490" class="body">研究愿景</text>
+<text x="656" y="519" class="body">数字员工与跨业务协同</text>
+<text x="656" y="548" class="body">京东 → 抖音及更多业务域</text>
+<text x="48" y="675" class="foot">阶段转换需要正式决策。图中前景属于研究目标，不代表已取得经营效果。</text>
+<text x="1148" y="700" text-anchor="end" class="foot">GARP · Research design</text>
+</svg>
