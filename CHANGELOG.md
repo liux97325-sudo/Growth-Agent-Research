@@ -59,8 +59,8 @@
 
 ### Changed
 
-- `LICENSE`：由 All-rights-reserved 占位改为 **CC BY-NC-SA 4.0**（开源、禁止商业用途）。
-- `README.md`：补充 License 与当前 GA-2 Conditional 状态说明。
+- `LICENSE`：改为 **Apache License 2.0**（完全开源，允许商用）。
+- `README.md`：重写为全英文详细介绍（架构图、四回路、门禁、骨架、治理与诚实状态）。
 - `Architecture_Overview_v0.2.md` §6：回写 lifecycle_status + review_result；packet_kind 冻结为 `standard`/`shadow_decision`。
 - `Risk_Trust_SelfReview_v0.1.md` v0.1.1：review_result 六元含 NO_ACTION_APPROVE；SRA 独占写；G-* 对照表。
 - canonical `source_env` = LIVE | SHADOW | SIMULATION | FIXTURE | **HUMAN**；REAL→LIVE 归一；GIP/Fixture 已改写。

@@ -56,8 +56,8 @@
 
 ## 6. Last Sync
 
-- **2026-09-15（GitHub 公开发布）：** LICENSE 改为 **CC BY-NC-SA 4.0**（开源、禁止商用）；创建公开仓库并推送 `https://github.com/liux97325-sudo/Growth-Agent-Research`；main `266ac5f`，tag `ga2-p0-remediation-20260915`；关闭 GA2-R01。  
-- **2026-09-15（P0 收敛轮）：** 外部审计第一批 P0：Release Manifest、状态统一、GA-DEC-007 Proposed、DPK/GIP/ERR v0.2.1、代码 NO_ACTION/outcome 修复、**28 tests + selfcheck PASS**。  
-- **2026-09-14（收口轮）：** 回路 C/D 运行时、DPK v0.2、Brain 建议书、garp/ 骨架；完备性 **8.2/10**。  
-- **2026-09-14（冲突关闭+完备审计）：** C-01–C-08 全关；完备性 7.3/10。  
-- **2026-09-11：** GA-DEC-003–006 与 GA-2 设计栈落地；未改 GA-1。  
+- **2026-09-15（Apache-2.0 + EN README）：** 完全开源允许商用；全英文 README 与 Mermaid 配图；本地提交完整研究数据。  
+- **2026-09-15（GitHub 公开发布）：** 创建公开仓库并推送；tag `ga2-p0-remediation-20260915`；关闭 GA2-R01。  
+- **2026-09-15（P0 收敛轮）：** 外部审计第一批 P0 与代码门禁修复。  
+- **2026-09-14：** 收口轮与完备性审计。  
+- **2026-09-11：** GA-DEC-003–006 与 GA-2 设计栈落地。  
