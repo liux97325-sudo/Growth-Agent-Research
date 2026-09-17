@@ -56,14 +56,8 @@
 
 ## 6. Last Sync
 
-- **2026-09-15（治理整改第一批）：** 外部审计后建立 `GA-2_Release_Manifest_v0.1.md`（Draft / UNCOMMITTED）；统一 Architecture/Baseline 文末状态为 Confirmed；ROADMAP 删除过期待审表述；本文件同步 **GA-2 Conditional**；Engineering_TODO 修复 T34 重号并登记 GA2-R01…R15；Theory_Engineering_Trace 同步 T27 等；新建 GA-3 边界决策草案 + Decision_Log GA-DEC-007（Proposed）；PROJECT_SPEC 阶段改为 GA-2 Active。**未做 git commit；未改 GA-1。**  
-- **2026-09-14（收口轮）：** 回路 C/D 运行时、DPK v0.2、Brain 建议书、garp/ 骨架（6 测试+selfcheck PASS）；完备性 **8.2/10**。  
-- **2026-09-14（冲突关闭+完备审计）：** C-01–C-08 全关；完备性 7.3/10；补 CBA/OFG、错误码目录、Skeleton 端口；source_env 归一。  
-- **2026-09-11（终审修复）：** T27–T29/T25 完成；GA-DEC-006 关闭 C-01/02/03；canonical source_env。  
-- **2026-09-11（基线确认后）：** GA-DEC-005 Accepted；GA-2.0-Draft Confirmed。  
-- **2026-09-11（基线打包）：** Gate v0.2 / Fixture / Runtime Envelope / 预标定实验完成。  
-- **2026-09-11（第三轮）：** JD Adapter v0.2；Forecast；阈值方法论。  
-- **2026-09-11（主线冻结）：** GA-DEC-004 Accepted。  
-- **2026-09-11（首轮研究）：** 架构 v0.2 + 四类组件详设 + 初步答卷。  
-- **2026-09-11（解锁）：** GA-DEC-003 Accepted。  
-- **2026-09-11：** 建立本文件。  
+- **2026-09-15（GitHub 公开发布）：** LICENSE 改为 **CC BY-NC-SA 4.0**（开源、禁止商用）；创建公开仓库并推送 `https://github.com/liux97325-sudo/Growth-Agent-Research`；main `266ac5f`，tag `ga2-p0-remediation-20260915`；关闭 GA2-R01。  
+- **2026-09-15（P0 收敛轮）：** 外部审计第一批 P0：Release Manifest、状态统一、GA-DEC-007 Proposed、DPK/GIP/ERR v0.2.1、代码 NO_ACTION/outcome 修复、**28 tests + selfcheck PASS**。  
+- **2026-09-14（收口轮）：** 回路 C/D 运行时、DPK v0.2、Brain 建议书、garp/ 骨架；完备性 **8.2/10**。  
+- **2026-09-14（冲突关闭+完备审计）：** C-01–C-08 全关；完备性 7.3/10。  
+- **2026-09-11：** GA-DEC-003–006 与 GA-2 设计栈落地；未改 GA-1。  
