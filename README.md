@@ -78,8 +78,19 @@ GA-1 Theory → GA-2 Engineering → GA-3 Validation → Future Versions
 
 ## 9. 未来规划
 
-- 完成 GA-1 理论基线、术语评审和研究问题收敛。
-- 经正式阶段评审后进入 GA-2。
-- 建立理论到工程需求的追踪关系。
-- 经工程基线评审后进入 GA-3。
+- 保持 GA-1 理论基线稳定，禁止反向修改。
+- 在 GA-2 Conditional 下完成契约收敛、Fixture 与可重放证据。
+- 负责人确认后推进 GA-2 Release Candidate 与 GA-3 解锁评审。
 - 建立可复现实验、证据和版本化成果发布流程。
+
+## 10. 许可证 / License
+
+本仓库采用 **Creative Commons BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享）。
+
+- 允许署名后的分享与演绎；
+- **禁止商业用途**（商用须另行书面授权）；
+- 衍生作品须以相同协议共享。
+
+完整文本见 [LICENSE](LICENSE) 与 <https://creativecommons.org/licenses/by-nc-sa/4.0/>。
+
+当前阶段表述：**GA-2 Conditional — Design Baseline Not Yet Releasable**（详见 `Research/GA-2/GA-2_Release_Manifest_v0.1.md`）。

@@ -15,7 +15,7 @@
 
 1. 本文件是 GA-2 工程设计的**唯一发布清单**。实现者不得同时拼接多份互相冲突的“现行权威”文档。  
 2. `Lifecycle Status` 在通过全部 P0 整改与独立复核前，保持 **Draft**；不得写 Final。  
-3. `code_revision` 在仓库完成首次可恢复提交前，保持 **UNCOMMITTED**；禁止伪造 git hash。  
+3. `code_revision` 已回填负责人授权的首次提交哈希（2026-09-15）；后续变更须新 commit 并更新本字段。禁止伪造 git hash。  
 4. 全部阈值/默认参数仍为 **Proposed**；本 Manifest 不把任何 Proposed 参数升格为 Confirmed 真值。  
 5. 硬约束：不修改 `Research/GA-1/GA-1_Theory_v1.0.md`；不授权真实连接、真实写或 GA-3 实验执行。
 
@@ -27,13 +27,13 @@
 |---|---|
 | **release_id** | `GA-2.0-RC1-draft` |
 | **manifest_status** | Draft（非 Final；通过前不得改写） |
-| **theory_input** | `Research/GA-1/GA-1_Theory_v1.0.md`；项目版本 `GA-1.0`；文件版本 `v1.0`；Lifecycle Status **Confirmed**（GA-DEC-002）；**Git hash：UNCOMMITTED**（仓库无提交，哈希待首次提交后回填） |
+| **theory_input** | `Research/GA-1/GA-1_Theory_v1.0.md`；项目版本 `GA-1.0`；文件版本 `v1.0`；Lifecycle Status **Confirmed**（GA-DEC-002）；Git：见 `code_revision` 同一 root commit |
 | **governance_input** | `PROJECT_SPEC.md`（规范版本 GA-1.0；阶段表述已同步 GA-2 Active）；决策列表：GA-DEC-001…006 **Accepted**；GA-DEC-007 **Proposed**（验证接口预研边界草案，待负责人） |
 | **authoritative_docs** | 见 §2（每类仅一个现行权威） |
 | **historical_docs** | 见 §3（禁止作为当前实现依据） |
-| **schema_versions** | Decision Packet：v0.1 基线 + v0.2 增量（Draft，待合并为自包含现行版）；Runtime Envelope：`Runtime_Envelope_Selfcheck_v0.1`（Draft）；Receipt：GIP/JD v0.2 回执契约（Draft）；Error Catalog：`Error_Reason_Code_Catalog_v0.1`（Draft，KE-* 未并入） |
-| **code_revision** | **UNCOMMITTED**（`garp/` 骨架与文档均未形成可恢复 git commit；首次提交由负责人决定，不得代填哈希） |
-| **test_evidence** | 命令：`garp` 包内 6 项骨架单测 + `apps/cli/selfcheck.py`（历史记录：PASS）；**未绑定 commit**；未形成审计 §11.3 要求的完整证据包（用例数/失败数/运行时间/Fixture 版本/输出哈希）；**不得作为 GA-2 完整门禁成立证据** |
+| **schema_versions** | Decision Packet：v0.1 字段主体 + v0.2 增量 + **v0.2.1 权威增量**（Draft，合并阅读）；Runtime Envelope：`Runtime_Envelope_Selfcheck_v0.1`（Draft）；Receipt：GIP/JD v0.2 回执契约（Draft）；Error Catalog：`Error_Reason_Code_Catalog_v0.1` + **v0.1.1 门禁增量**（Draft） |
+| **code_revision** | **`eda70ad876233ea253747e4624d4fb087522d671`**（root commit）；tag **`ga2-p0-remediation-20260915`**；分支 `main`；提交信息含 GA2-R01 Closed |
+| **test_evidence** | 命令：`cd garp && python3 -m unittest discover -s tests/unit` → **28 tests OK**；`python3 apps/cli/selfcheck.py` → **PASS**；绑定 root commit `eda70ad`；仍未形成审计 §11.3 全字段证据包（运行时间/输出哈希未单独归档）；**不得作为 GA-2 完整门禁成立证据** |
 | **open_items** | 见 §5（阻塞 / 非阻塞分列） |
 | **prohibited_scope** | 见 §6 |
 

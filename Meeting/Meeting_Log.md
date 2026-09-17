@@ -62,7 +62,7 @@ R01 git 基线；GA-DEC-007 Accept；R08–R15；G-02–G-09 完整实现；FX-0
 | 动作 | 负责人 | 截止日期 | 关联项 | 状态 |
 |---|---|---|---|---|
 | P0 整改第一批 | MiMo | 2026-09-15 | R02–R07/R03–R05 | Done（见 TODO） |
-| 首次 git 提交 | Project Owner | 待定 | R01 | Open |
+| 首次 git 提交 | Project Owner | 2026-09-15 | R01 | **Done** `eda70ad` + tag `ga2-p0-remediation-20260915` |
 | Accept GA-DEC-007 | Project Owner | 待定 | R06 | Open |
 
 ### 3.8 关联决策

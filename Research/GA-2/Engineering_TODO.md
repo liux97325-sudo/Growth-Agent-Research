@@ -5,7 +5,7 @@
 **主线冻结：** `GA-DEC-004`（Accepted，2026-09-11）  
 **工程基线：** `GA-2.0_Baseline_Package.md`（**Confirmed**，GA-DEC-005，2026-09-11）  
 **架构主线：** `Architecture_Overview_v0.2.md`（Confirmed）  
-**Release Manifest：** `GA-2_Release_Manifest_v0.1.md`（Draft；release_id=`GA-2.0-RC1-draft`；code_revision=UNCOMMITTED）  
+**Release Manifest：** `GA-2_Release_Manifest_v0.1.md`（Draft；release_id=`GA-2.0-RC1-draft`；code_revision=`eda70ad`）  
 **输入基线：** `Research/GA-1/GA-1_Theory_v1.0.md`（GA-1.0 / v1.0）  
 **第一验证场：** 京东广告（抖音后置）  
 **工程红线：** Shadow/只读优先；写权限单独授权；默认参数一律 Proposed；真实只读连接仍须单独授权（GA2-T25）  
@@ -100,7 +100,7 @@ GA-2.0-Draft 基线已由负责人选项 A 通过（GA-DEC-005）。2026-09-15 �
 
 | 整改 ID | 优先级 | 事项 | 登记状态 | 本轮治理动作 / 关联产物 |
 |---|---|---|---|---|
-| GA2-R01 | P0 | 建立可恢复版本基线 | **Open**（Blocked by 负责人首次提交） | Manifest 已记 `code_revision=UNCOMMITTED`；不代提交、不伪造 hash |
+| GA2-R01 | P0 | 建立可恢复版本基线 | **Done** | root commit **`eda70ad`**；tag `ga2-p0-remediation-20260915`；Manifest 已回填 hash |
 | GA2-R02 | P0 | 统一 GA-2 权威清单 | **Done (Governance)** | 新建 `GA-2_Release_Manifest_v0.1.md`；每类唯一现行版本已列 |
 | GA2-R03 | P0 | 修复 NO_ACTION/写动作审批串用 | **Done (Code)** | `packet.is_no_action`/`is_writable` 修复；DPK-I9–I11 契约；负向测试 28/28 |
 | GA2-R04 | P0 | 修复 NO_ACTION 被拒仍出合法回执 | **Done (Code)** | write_gate 按 outcome 分支；REJECT/HOLD/REVISE 不出 approved 合成回执 |
